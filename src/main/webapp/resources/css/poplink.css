@@ -1,0 +1,13 @@
+@charset "utf-8";
+.content {background-color: #2eedef;}
+
+.pop-img {width: 100%; max-width: 100%; margin: 0 auto; position: relative; background-size: cover;}
+.pop-img img {width: 100%; height: auto; display: block; overflow-y: auto; background-size: cover;}
+.main-list .list {display: flex; flex-wrap: wrap; justify-content:center; gap: 1%; margin: 3em 0 0;}
+.main-list .list > div {font-size: 16px; background-color: #fff; flex: 0 0 32%; margin: 0 0 2em;  box-sizing: border-box; position: relative; transition: all .2s ease-in-out; overflow: hidden; padding: 0 0 .5em 0;}
+.main-list .list > div > img {object-fit: cover; width:100%; height: 300px;}
+.main-list .list > div p {width: 100%; text-align: center; color: #333; font-size: 1.1em; font-family: 'Gmarket Sans'; padding: 0 .5em; box-sizing: border-box; line-height: 2em; height: 2em;
+overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-break: break-all;}
+.main-list .list > div:hover {cursor: pointer; transform: scale(1.02);}
+.main-list .list > div label {display: block; height: 36px; width: auto; margin: .5em auto 0; text-align: center;}
+.main-list .list > div label > img {height: 100%;}

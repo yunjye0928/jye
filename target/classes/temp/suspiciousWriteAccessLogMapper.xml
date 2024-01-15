@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bluemoonsoft.docuray.temp.dao.SuspiciousLogDao">
+
+	<insert id="insertSCTempPacketIntoSuspiciousWriteAccesslog" parameterType="SCTemp29201">
+		INSERT INTO `suspicious_write_access_log`(`datetime`,`pc_id`,  `user_id`, `policy_id`, `reaction`, `file`, `process`)
+		VALUES(#{datetime}, #{pc_id}, #{user_id}, #{policy_id}, #{reaction}, #{file}, #{process})
+	</insert>
+	
+</mapper>
